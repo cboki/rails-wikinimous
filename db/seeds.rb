@@ -8,5 +8,5 @@
 
 10.times do
 Article.create(title: Faker::Lorem.sentence,
-               content: Faker::Lorem.paragraphs)
+               content: Faker::Lorem.paragraph(30))
 end
